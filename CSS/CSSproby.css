@@ -1,0 +1,79 @@
+/* Спецификация*/
+body {font-family: 'PT Sans', sans-serif;
+	font-size: 16px;}
+	*, *:before,*:after {box-sizing: border-box; margin: 0; padding: 0;}
+ul, li {display: block;
+		padding: 0;
+		margin: 0;}
+
+h1, h2, h3, h4, h5 {font-size: 32px;
+					font-weight:700;
+					color:#000;}
+
+h3 {font-weight:400;}
+h2 {text-align: center;}
+
+
+.section__title { text-align: center;
+				padding-bottom: 70px;}
+
+.title__main {}
+
+.title__text {font-size:20px;
+			width: 80%;
+			margin:0 auto;}
+
+/* Хэдер */
+
+.header__section{background-color: #fcdb00;
+				color: #010101;
+				padding:50px 0px 107px 0px;
+				}
+
+
+.nav {display: flex;
+	align-items: flex-end;}
+.menu__item a {font-size: 22px;
+			font-weight: 700;
+			color:#000;
+			text-decoration: none;
+			margin-left: 57px;
+			transition: color 0.3s linear;}
+.menu__item a:hover {color:#fff;}
+
+.icon__item {margin-right: 30px;}
+ 
+.icon__item a{text-decoration: none;
+			color:#000;
+			font-size: 42px;
+			transition: color 0.3s linear;}
+.icon__item a:hover {color:#fff;}
+
+.offer {margin-top: 117px;}
+
+.offer__title {margin-bottom: 20px;
+				line-height: 1.3em;}
+
+.offer__intro {font-size: 20px;
+			color:#313841;}
+
+.offer__text {margin-top: 20px;
+			color:#555555;
+			width: 400px;}
+
+.device__image {margin-top: 70px;}
+.device__image__img {display: block;
+					margin: 0 auto;}
+
+/*Features*/
+.features_section {padding:120px 0px 165px 0px;}
+
+.feature .feature__icon {font-size: 50px;
+						margin-right: 37px;}
+.contentblock__heading {font-size:22px;}
+.contentblock__text {line-height: 20px;}
+
+.feature__margin {margin-top: 70px;}
+
+
+.title__text__color {}
