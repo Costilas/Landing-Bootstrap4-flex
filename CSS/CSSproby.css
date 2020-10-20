@@ -111,7 +111,46 @@ h2 {text-align: center;}
 /*Footer*/
 
 .footer_section {background-color: #000;
-				padding:50px 0px 107px 0px;}
+				padding:50px 0px 107px 0px;
+				border:none;}
 
-.footer_text {text-align: center;
+.footer__text {text-align: center;
 				color:#fff;}
+
+.upper__texline {text-transform: uppercase;}
+
+
+/*Adaptive*/
+
+@media screen and (max-width: 991px) {
+	.header__section {text-align: center;}
+	.feature__margin {margin-top:0px;}
+	.offer__text {width: 70%;
+					margin: 30px auto;}
+	.icons {justify-content: center;}
+	.icon__item:last-child {margin-right: 0px;}
+	.nav__block {width: 100%; 
+				padding-top: 30px;}
+	.nav__block ul {justify-content: space-around;}
+	.menu__item a {margin-left: 0px;}
+	.offer {margin-top:50px;}
+	.feature {flex-direction: column;}
+	.feature .feature__icon {margin: auto;}
+	.feature__contentblock {text-align: center;
+							width: 70%;
+							margin: auto;}
+	.features_section, .footer_section {padding-bottom: 65px;}
+	.nav {padding-right: 0px;}
+
+@media screen and (max-width: 496px) {
+	.form__input {margin-right:0px;
+					width: 100%;
+					text-align: center;
+					margin-bottom: 30px;}
+}
+
+@media screen and (max-width: 345px) {
+	.device__image__img {width: 100%;}
+	.br_tag {display: none;}
+
+}
