@@ -60,9 +60,11 @@ h2 {text-align: center;}
 			color:#555555;
 			width: 400px;}
 
-.device__image {margin-top: 70px;}
+.device__image {margin-top: 70px;
+				overflow: hidden;}
 .device__image__img {display: block;
-					margin: 0 auto;}
+					margin: 0 auto;
+					object-fit: cover;}
 
 /*Features*/
 .features_section {padding:120px 0px 165px 0px;}
